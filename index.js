@@ -11,6 +11,6 @@ app.use(express.json());
 
 // app.use(cors());
 app.use('/', Router);
-
+console.log("dagagd")
 
 app.listen(port, () => {console.log('started...');});
